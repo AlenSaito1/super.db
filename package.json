@@ -1,0 +1,25 @@
+{
+  "name": "super.db",
+  "version": "0.0.1",
+  "description": "Quick mongodb wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo well\\"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "quick.db",
+    "mongo",
+    "mongodb"
+  ],
+  "author": "Alen Yohannan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.168",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.11.19"
+  }
+}
