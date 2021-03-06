@@ -30,9 +30,7 @@ export default class Base extends EventEmitter {
 
     create() {
         return mongoose.createConnection(this.dbURL, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-            useCreateIndex: true
+            useNewUrlParser: true
         })
     }
 

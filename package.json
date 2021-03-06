@@ -4,7 +4,7 @@
   "description": "Quick mongodb wrapper",
   "main": "index.js",
   "scripts": {
-    "test": "echo well\\"
+    "test": "tsc ./tests/index.ts && node ./tests"
   },
   "repository": {
     "type": "git",

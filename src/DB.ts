@@ -3,7 +3,7 @@ import Schema from './Schema'
 import Util from '../utils'
 import { Model } from 'mongoose'
 
-class Database extends Base {
+export class Database extends Base {
 
     schema: Model<any>
     constructor(uri: string, name: string) {
